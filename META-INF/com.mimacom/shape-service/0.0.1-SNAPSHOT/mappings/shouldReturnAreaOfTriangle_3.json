@@ -1,5 +1,5 @@
 {
-  "id" : "481a220e-7de3-4caa-805b-3bfcf602e17e",
+  "id" : "1a554e9c-f0cc-416c-a4c4-f0ef71ce882e",
   "request" : {
     "url" : "/triangle?length=50.0&width=50.0",
     "method" : "GET"
@@ -12,5 +12,5 @@
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "481a220e-7de3-4caa-805b-3bfcf602e17e"
+  "uuid" : "1a554e9c-f0cc-416c-a4c4-f0ef71ce882e"
 }
