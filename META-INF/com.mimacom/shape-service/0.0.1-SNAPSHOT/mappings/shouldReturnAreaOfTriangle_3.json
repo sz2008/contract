@@ -1,0 +1,16 @@
+{
+  "id" : "481a220e-7de3-4caa-805b-3bfcf602e17e",
+  "request" : {
+    "url" : "/triangle?length=50.0&width=50.0",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"area\":1250}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "481a220e-7de3-4caa-805b-3bfcf602e17e"
+}

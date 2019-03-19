@@ -1,0 +1,16 @@
+{
+  "id" : "4fa85825-c6df-410a-89c7-3b3f91eedad1",
+  "request" : {
+    "url" : "/triangle?length=100.0&width=100.0",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"area\":5000}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "4fa85825-c6df-410a-89c7-3b3f91eedad1"
+}
