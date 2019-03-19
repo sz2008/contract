@@ -1,0 +1,16 @@
+{
+  "id" : "24f396ce-c400-407e-9c9d-a691e0dd765f",
+  "request" : {
+    "url" : "/triangle?length=100.0&width=200.0",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"area\":10000}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "24f396ce-c400-407e-9c9d-a691e0dd765f"
+}
