@@ -1,0 +1,16 @@
+{
+  "id" : "e2794d55-0b64-454c-aa75-db23ab01ebf9",
+  "request" : {
+    "url" : "/getProductName?id=0",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Product is not existent\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "e2794d55-0b64-454c-aa75-db23ab01ebf9"
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "7764e142-6acd-4633-a653-7e8de873ed2b",
+  "request" : {
+    "url" : "/getProductName?id=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Poruct 2\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "7764e142-6acd-4633-a653-7e8de873ed2b"
+}
