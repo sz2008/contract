@@ -2,7 +2,7 @@ import org.springframework.cloud.contract.spec.Contract
 
 [
         Contract.make {
-            description "get prodct name"
+            description "get Product name"
             request {
                 url "/getProductName?id=2"
                 method GET()
@@ -13,12 +13,12 @@ import org.springframework.cloud.contract.spec.Contract
                     header 'Content-Type': 'application/json;charset=UTF-8'
                 }
                 body (
-                        name: "Poruct 2"
+                        name: "Product 2"
                 )
             }
         },
         Contract.make {
-            description "get prodct name by id==0"
+            description "get Product name by id==0"
             request {
                 url "/getProductName?id=0"
                 method GET()
