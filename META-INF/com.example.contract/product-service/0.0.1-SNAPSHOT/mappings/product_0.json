@@ -1,0 +1,16 @@
+{
+  "id" : "b6652365-12e8-46c4-9939-42a0f4635bb2",
+  "request" : {
+    "url" : "/getProductById?id=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"productName\":\"Product Name 2\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "b6652365-12e8-46c4-9939-42a0f4635bb2"
+}
