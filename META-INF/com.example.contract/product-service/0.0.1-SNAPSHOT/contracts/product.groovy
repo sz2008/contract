@@ -9,9 +9,6 @@ import org.springframework.cloud.contract.spec.Contract
             }
             response {
                 status 200
-                headers{
-                    header 'Content-Type': 'application/json;charset=UTF-8'
-                }
                 body (
                         productName: "Product Name 2"
                 )
@@ -24,12 +21,9 @@ import org.springframework.cloud.contract.spec.Contract
                 method GET()
             }
             response {
-                status 200
-                headers{
-                    header 'Content-Type': 'application/json;charset=UTF-8'
-                }
+                status 404
                 body (
-                        productName: "Product is not existent"
+                       "Product not found"
                 )
             }
         }

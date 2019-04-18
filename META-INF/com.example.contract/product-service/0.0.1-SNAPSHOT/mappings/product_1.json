@@ -1,16 +1,13 @@
 {
-  "id" : "7aa1a2e2-1e12-487c-95c0-81ac6a883a9f",
+  "id" : "a8f13264-953e-424c-8d97-8adde41f48c6",
   "request" : {
     "url" : "/getProductById?id=0",
     "method" : "GET"
   },
   "response" : {
-    "status" : 200,
-    "body" : "{\"productName\":\"Product is not existent\"}",
-    "headers" : {
-      "Content-Type" : "application/json;charset=UTF-8"
-    },
+    "status" : 404,
+    "body" : "Product not found",
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "7aa1a2e2-1e12-487c-95c0-81ac6a883a9f"
+  "uuid" : "a8f13264-953e-424c-8d97-8adde41f48c6"
 }

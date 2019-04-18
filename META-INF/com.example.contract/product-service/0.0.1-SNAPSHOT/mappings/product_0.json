@@ -1,5 +1,5 @@
 {
-  "id" : "ba14bee3-2696-4fc5-a878-7ebb5951ecb1",
+  "id" : "4428ed7b-deb1-4dfc-bca2-7655252a3414",
   "request" : {
     "url" : "/getProductById?id=2",
     "method" : "GET"
@@ -7,10 +7,7 @@
   "response" : {
     "status" : 200,
     "body" : "{\"productName\":\"Product Name 2\"}",
-    "headers" : {
-      "Content-Type" : "application/json;charset=UTF-8"
-    },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "ba14bee3-2696-4fc5-a878-7ebb5951ecb1"
+  "uuid" : "4428ed7b-deb1-4dfc-bca2-7655252a3414"
 }
