@@ -1,5 +1,5 @@
 {
-  "id" : "54943a0b-74b1-4e30-bc32-ecd91ade8a04",
+  "id" : "e83da107-3a87-4667-8403-2f916e83f630",
   "request" : {
     "url" : "/getProductById?id=0",
     "method" : "GET"
@@ -7,7 +7,10 @@
   "response" : {
     "status" : 404,
     "body" : "Product not found",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "54943a0b-74b1-4e30-bc32-ecd91ade8a04"
+  "uuid" : "e83da107-3a87-4667-8403-2f916e83f630"
 }

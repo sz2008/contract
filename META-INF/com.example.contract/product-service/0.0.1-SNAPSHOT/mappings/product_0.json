@@ -1,5 +1,5 @@
 {
-  "id" : "4cf0fb6c-25c5-4991-87ac-f07902d331a1",
+  "id" : "dda7af61-424c-49a3-b8e9-2533b8e2b97d",
   "request" : {
     "url" : "/getProductById?id=2",
     "method" : "GET"
@@ -7,7 +7,10 @@
   "response" : {
     "status" : 200,
     "body" : "{\"productName\":\"Product Name 2\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "4cf0fb6c-25c5-4991-87ac-f07902d331a1"
+  "uuid" : "dda7af61-424c-49a3-b8e9-2533b8e2b97d"
 }

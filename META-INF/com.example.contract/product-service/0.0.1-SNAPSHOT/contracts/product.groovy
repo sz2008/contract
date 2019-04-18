@@ -9,6 +9,9 @@ import org.springframework.cloud.contract.spec.Contract
             }
             response {
                 status 200
+                headers{
+                    header 'Content-Type': 'application/json;charset=UTF-8'
+                }
                 body (
                         productName: "Product Name 2"
                 )
@@ -22,6 +25,9 @@ import org.springframework.cloud.contract.spec.Contract
             }
             response {
                 status 404
+                headers{
+                    header 'Content-Type': 'application/json;charset=UTF-8'
+                }
                 body (
                        "Product not found"
                 )
