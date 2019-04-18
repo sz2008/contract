@@ -1,5 +1,5 @@
 {
-  "id" : "a8f13264-953e-424c-8d97-8adde41f48c6",
+  "id" : "622111e0-5802-438d-99d0-432042bd529b",
   "request" : {
     "url" : "/getProductById?id=0",
     "method" : "GET"
@@ -9,5 +9,5 @@
     "body" : "Product not found",
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "a8f13264-953e-424c-8d97-8adde41f48c6"
+  "uuid" : "622111e0-5802-438d-99d0-432042bd529b"
 }
